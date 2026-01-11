@@ -1,10 +1,10 @@
-import AboutCodexHeroSplit from "@/components/hero/AboutCodexHeroSplit";
+import AboutLexaraHeroSplit from "@/components/hero/AboutLexaraHeroSplit";
 import LexaraSignificado from "@/components/LexaraSignificado";
 
 export default function AboutPage() {
     return (
         <>
-            <AboutCodexHeroSplit />
+            <AboutLexaraHeroSplit />
             <LexaraSignificado />
         </>
     )
