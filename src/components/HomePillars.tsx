@@ -18,7 +18,7 @@ export default function HomePillars() {
                     className="text-center mb-14"
                 >
                     <h2 className="text-2xl md:text-4xl font-bold">
-                        O que você encontra no CODEX
+                        O que você encontra no LEXARA
                     </h2>
                     <p className="text-slate-400 mt-4 text-sm md:text-base">
                         Conteúdo geek analisado com critério, curiosidade e paixão.

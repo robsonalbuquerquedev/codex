@@ -1,41 +1,29 @@
+import Image from "next/image";
 import Link from "next/link";
-import { BookOpen } from "lucide-react";
 import Navbar from "@/components/navigation/Navbar";
 
 export default function Header() {
     return (
-        <header className="w-full bg-neutral-950 border-b border-neutral-800 relative z-40">
-            <div className="max-w-7xl mx-auto px-4 h-20 flex items-center justify-between">
+        <header className="w-full bg-gradient-to-br from-slate-950 via-slate-900 to-indigo-950 border-b border-white/10 relative z-40">
+            <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
 
-                {/* Logo textual com conceito visual */}
+                {/* Logo da LEXARA */}
                 <Link
                     href="/"
-                    aria-label="Página inicial do Codex"
-                    className="flex items-center gap-3 group"
+                    aria-label="Página inicial da Lexara"
+                    className="flex items-center group"
                 >
-                    {/* Livro */}
-                    <div className="relative">
-                        <BookOpen
-                            size={28}
-                            className="text-neutral-300 group-hover:text-neutral-100 transition-colors"
-                        />
-
-                        {/* Glow sutil */}
-                        <div className="absolute inset-0 blur-md opacity-40 group-hover:opacity-70 transition-opacity
-                        bg-gradient-to-r from-[#AB0B00] via-[#3091D8] to-[#FB6384]" />
-                    </div>
-
-                    {/* Texto emergindo */}
-                    <span className="text-xl font-semibold tracking-wide">
-                        <span style={{ color: "#AB0B00" }}>C</span>
-                        <span style={{ color: "#3091D8" }}>Ó</span>
-                        <span style={{ color: "#66546C" }}>D</span>
-                        <span style={{ color: "#039BA5" }}>E</span>
-                        <span style={{ color: "#FB6384" }}>X</span>
-                    </span>
+                    <Image
+                        src="/images/logolexaraheaderremovebg.png"
+                        alt="LEXARA — Arquivo vivo do universo geek"
+                        width={160}
+                        height={40}
+                        priority
+                        className="drop-shadow-lg transition-transform duration-300 group-hover:scale-[1.02]"
+                    />
                 </Link>
-                
-                {/* Navigation */}
+
+                {/* Navegação */}
                 <Navbar />
             </div>
         </header>

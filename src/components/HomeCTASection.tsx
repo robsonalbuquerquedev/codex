@@ -22,7 +22,7 @@ export default function HomeCTASection() {
                                backdrop-blur"
                 >
                     <h2 className="text-2xl md:text-4xl font-bold mb-6">
-                        Pronto para mergulhar no universo CODEX?
+                        Pronto para mergulhar no universo LEXARA?
                     </h2>
 
                     <p className="text-slate-300 text-sm md:text-lg max-w-2xl mx-auto mb-10">

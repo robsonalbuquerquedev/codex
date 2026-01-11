@@ -18,10 +18,10 @@ export default function MainHeroSplit() {
                     className="flex justify-center md:justify-start"
                 >
                     <Image
-                        src="/images/logocodex.png"
-                        alt="CODEX Logo"
-                        width={420}
-                        height={420}
+                        src="/images/herosplitlexara.png"
+                        alt="LEXARA — universo geek sem rótulos"
+                        width={520}
+                        height={520}
                         priority
                         className="drop-shadow-2xl"
                     />
@@ -37,20 +37,26 @@ export default function MainHeroSplit() {
                     <h1 className="text-3xl md:text-5xl font-bold tracking-tight">
                         Geek por paixão.
                         <span className="block text-indigo-400">
-                            Conteúdo por convicção.
+                            Histórias sem rótulos.
                         </span>
                     </h1>
 
                     <p className="text-slate-300 text-base md:text-lg leading-relaxed">
-                        O CÓDEX nasce entre amigos que amam o universo geek sem rótulos.
-                        Aqui, DC e Marvel dividem o mesmo espaço, assim como filmes,
-                        séries, games, histórias, origens e curiosidades.
+                        A <strong>LEXARA</strong> nasce do encontro entre pessoas que vivem e
+                        respiram cultura geek, mas que acreditam que grandes histórias não
+                        precisam de lados, disputas ou barreiras. Aqui, universos coexistem,
+                        ideias se cruzam e narrativas ganham espaço para serem exploradas com
+                        profundidade, curiosidade e respeito — seja nos quadrinhos, no cinema,
+                        nas séries, nos games ou em tudo aquilo que desperta imaginação.
                     </p>
 
-                    <p className="text-slate-400 text-sm md:text-base">
-                        Nossa visão é imparcial, baseada em pesquisa, análise e troca
-                        verdadeira de ideias — sempre atualizando e celebrando essa
-                        cultura que conecta pessoas.
+                    <p className="text-slate-400 text-sm md:text-base leading-relaxed">
+                        Nosso propósito é simples e ao mesmo tempo ambicioso: registrar,
+                        analisar e celebrar o que torna o universo geek tão poderoso. A LEXARA
+                        é guiada por pesquisa, reflexão e troca verdadeira de ideias, criando
+                        um ambiente onde clássicos são revisitados, lançamentos são discutidos
+                        com cuidado e cada conteúdo contribui para manter essas histórias
+                        vivas, relevantes e conectadas às pessoas que as acompanham.
                     </p>
 
                     {/* Ícones conceituais alinhados aos pilares */}
@@ -74,11 +80,12 @@ export default function MainHeroSplit() {
                             );
                         })}
                     </motion.div>
+
                     <CTA
                         primaryLabel="Explorar conteúdos"
                         primaryHref="#pillars"
-                        secondaryLabel="Sobre o CODEX"
-                        secondaryHref="#about-codex"
+                        secondaryLabel="Sobre a LEXARA"
+                        secondaryHref="#about-lexara"
                     />
                 </motion.div>
             </div>

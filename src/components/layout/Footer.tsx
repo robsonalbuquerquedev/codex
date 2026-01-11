@@ -1,22 +1,31 @@
+import Image from "next/image";
 import {
     Instagram,
     ExternalLink,
     FileText,
     ShieldCheck,
-    Layers
+    Layers,
 } from "lucide-react";
 
 export default function Footer() {
     const currentYear = new Date().getFullYear();
 
     return (
-        <footer className="w-full bg-neutral-950 text-neutral-400 border-t border-neutral-800">
-            <div className="max-w-7xl mx-auto px-4 py-12 grid gap-10 md:grid-cols-3">
+        <footer className="w-full bg-gradient-to-br from-slate-950 via-slate-900 to-indigo-950 text-slate-400 border-t border-white/10">
+            <div className="max-w-7xl mx-auto px-6 py-14 grid gap-12 md:grid-cols-3">
 
                 {/* Brand & Legal */}
-                <div className="text-sm space-y-4">
-                    <p className="text-neutral-300 font-medium">
-                        © {currentYear} CODEX
+                <div className="space-y-5 text-sm">
+                    <Image
+                        src="/images/logolexara.png"
+                        alt="LEXARA — Arquivo vivo do universo geek"
+                        width={200}
+                        height={200}
+                        className="drop-shadow-xl"
+                    />
+
+                    <p className="text-slate-300 font-medium">
+                        © {currentYear} LEXARA
                     </p>
 
                     <div className="flex flex-col gap-2">
@@ -39,13 +48,13 @@ export default function Footer() {
                 </div>
 
                 {/* Projects */}
-                <div className="text-sm space-y-4">
-                    <p className="text-neutral-300 font-medium flex items-center gap-2">
+                <div className="text-sm space-y-5">
+                    <p className="text-slate-300 font-medium flex items-center gap-2">
                         <Layers size={16} />
                         Outros projetos
                     </p>
 
-                    <ul className="space-y-2">
+                    <ul className="space-y-3">
                         <li>
                             <a
                                 href="https://aprenderviolaoonline.com.br/"
@@ -85,32 +94,30 @@ export default function Footer() {
                 </div>
 
                 {/* Social */}
-                <div className="text-sm space-y-4">
-                    <p className="text-neutral-300 font-medium">
+                <div className="text-sm space-y-5">
+                    <p className="text-slate-300 font-medium">
                         Conecte-se com a gente
                     </p>
 
                     <div className="flex flex-col gap-3">
                         <a
-                            href="https://www.instagram.com/celsiuslopes?igsh=MXdvdDM5YW9jbXg0aA=="
+                            href="https://www.instagram.com/celsiuslopes"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="flex items-center gap-2 hover:text-white transition-colors"
-                            aria-label="Celso Lopes no Instagram"
                         >
                             <Instagram size={18} />
-                            <span>@celsiuslopes</span>
+                            @celsiuslopes
                         </a>
 
                         <a
-                            href="https://www.instagram.com/_emanuell_j?igsh=NWxlYWdwbDE4cmU5"
+                            href="https://www.instagram.com/_emanuell_j"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="flex items-center gap-2 hover:text-white transition-colors"
-                            aria-label="Emanuel José no Instagram"
                         >
                             <Instagram size={18} />
-                            <span>@_emanuel_j</span>
+                            @_emanuel_j
                         </a>
 
                         <a
@@ -118,10 +125,9 @@ export default function Footer() {
                             target="_blank"
                             rel="noopener noreferrer"
                             className="flex items-center gap-2 hover:text-white transition-colors"
-                            aria-label="Robson Albuquerque no Instagram"
                         >
                             <Instagram size={18} />
-                            <span>@robson.albuquerque_cm</span>
+                            @robson.albuquerque_cm
                         </a>
                     </div>
                 </div>
