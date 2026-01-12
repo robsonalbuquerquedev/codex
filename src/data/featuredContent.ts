@@ -6,7 +6,7 @@ export const featuredContent = [
             "Uma análise detalhada das diferentes interpretações do Batman no cinema, do tom sombrio de Tim Burton à abordagem realista e épica de Christopher Nolan.",
         image: "/images/featured/batmanreal.png",
         category: "Filmes & Séries",
-        href: "/filmes-series/batman-evolucao",
+        href: "/filmes-series/dc/batman-evolucao",
     },
     {
         id: 2,
