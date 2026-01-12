@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import CTA from "@/components/cta/CTA";
-import { codexPillars } from "@/data/codexPillars";
+import { lexaraPillars } from "@/data/lexaraPillars";
 
 export default function MainHeroSplit() {
     return (
@@ -66,7 +66,7 @@ export default function MainHeroSplit() {
                         transition={{ delay: 0.6 }}
                         className="flex flex-wrap justify-center md:justify-start gap-6 pt-4"
                     >
-                        {codexPillars.map((pillar) => {
+                        {lexaraPillars.map((pillar) => {
                             const Icon = pillar.icon;
 
                             return (

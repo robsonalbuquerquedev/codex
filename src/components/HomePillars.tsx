@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { codexPillars } from "@/data/codexPillars";
+import { lexaraPillars } from "@/data/lexaraPillars";
 
 export default function HomePillars() {
     return (
@@ -20,14 +20,17 @@ export default function HomePillars() {
                     <h2 className="text-2xl md:text-4xl font-bold">
                         O que você encontra no LEXARA
                     </h2>
-                    <p className="text-slate-400 mt-4 text-sm md:text-base">
-                        Conteúdo geek analisado com critério, curiosidade e paixão.
+                    <p className="text-slate-400 mt-4 text-sm md:text-base max-w-3xl mx-auto">
+                        No LEXARA, a cultura geek é explorada com profundidade, respeito e olhar crítico.
+                        Aqui você encontra análises detalhadas, reflexões bem fundamentadas e conteúdos
+                        que vão além da superfície, conectando filmes, séries, games, quadrinhos e narrativas
+                        que moldam o imaginário contemporâneo.
                     </p>
                 </motion.div>
 
                 {/* Pillars grid */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-                    {codexPillars.map((pillar, index) => {
+                    {lexaraPillars.map((pillar, index) => {
                         const Icon = pillar.icon;
 
                         return (

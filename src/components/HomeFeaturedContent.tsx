@@ -21,8 +21,9 @@ export default function HomeFeaturedContent() {
                     <h2 className="text-2xl md:text-4xl font-bold">
                         Conteúdos em destaque
                     </h2>
-                    <p className="text-slate-400 mt-4 text-sm md:text-base">
-                        Artigos selecionados para quem vive a cultura geek sem rótulos.
+                    <p className="text-slate-400 mt-4 text-sm md:text-base max-w-3xl mx-auto">
+                        Artigos cuidadosamente selecionados que aprofundam debates, análises e reflexões
+                        sobre filmes, séries, games e narrativas que definem a cultura geek contemporânea.
                     </p>
                 </motion.div>
 

@@ -26,9 +26,8 @@ export default function HomeCTASection() {
                     </h2>
 
                     <p className="text-slate-300 text-sm md:text-lg max-w-2xl mx-auto mb-10">
-                        Explore análises, histórias, curiosidades e opiniões
-                        construídas com pesquisa, troca de ideias e paixão
-                        pela cultura geek.
+                        Explore análises aprofundadas, histórias bem contextualizadas, curiosidades
+                        e reflexões construídas com pesquisa, diálogo e paixão pela cultura geek.
                     </p>
 
                     <Link href="#pillars">

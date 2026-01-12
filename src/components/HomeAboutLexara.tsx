@@ -20,15 +20,23 @@ export default function HomeAboutCodex() {
                     </h2>
 
                     <p className="text-slate-300 text-base md:text-lg leading-relaxed">
-                        O LEXARA nasceu entre amigos que sempre gostaram de conversar
-                        sobre filmes, séries, games e histórias sem rótulos ou disputas.
-                        Aqui, o foco não é escolher lados, mas entender, analisar e
-                        compartilhar o que torna o universo geek tão rico.
+                        O LEXARA nasceu de conversas sinceras entre amigos apaixonados por filmes, séries,
+                        games, quadrinhos e pelas histórias que atravessam gerações. Em vez de debates rasos
+                        ou disputas de opinião, sempre nos interessou entender o porquê das narrativas,
+                        das escolhas criativas e do impacto cultural que essas obras exercem sobre quem as consome.
                     </p>
 
-                    <p className="text-slate-400 text-sm md:text-base">
-                        Pesquisamos, debatemos e escrevemos porque acreditamos que
-                        cultura também se constrói com troca de ideias.
+                    <p className="text-slate-300 text-base md:text-lg leading-relaxed">
+                        Aqui, a cultura geek é tratada como um espaço de análise, reflexão e troca.
+                        Não acreditamos em rótulos fechados, rankings definitivos ou verdades absolutas.
+                        A proposta é investigar contextos, origens e significados, conectando entretenimento
+                        e pensamento crítico de forma acessível e respeitosa.
+                    </p>
+
+                    <p className="text-slate-400 text-sm md:text-base leading-relaxed">
+                        Pesquisamos, debatemos e escrevemos porque entendemos que cultura também se constrói
+                        no diálogo. O LEXARA existe para quem gosta de ir além da superfície e enxergar o
+                        universo geek como um território vivo, plural e em constante transformação.
                     </p>
 
                     <div className="pt-4">
