@@ -1,4 +1,5 @@
 import CardLayout from "@/components/layout/CardLayout";
+import BackButton from "@/components/navigation/BackButton";
 import SpiderVerseCard from "@/components/card/SpiderVerseCard";
 import type { Metadata } from "next";
 
@@ -55,7 +56,14 @@ export const metadata: Metadata = {
 
 export default function FilmesSeriesAnimacoesPage() {
     return (
-        <CardLayout>
+        <CardLayout
+            header={
+                <BackButton
+                    fallbackHref="/filmes-series"
+                    label="Voltar para Filmes & Séries"
+                />
+            }
+        >
             <SpiderVerseCard />
         </CardLayout>
     );
