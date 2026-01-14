@@ -1,3 +1,4 @@
+import SectionPillsNav from "@/components/navigation/SectionPillsNav";
 import FilmesSeriesCard from "@/components/card/FilmesSeriesCard"
 import type { Metadata } from "next";
 
@@ -48,6 +49,9 @@ export const metadata: Metadata = {
 
 export default function FilmesSeriesPage() {
     return (
-        <FilmesSeriesCard />
+        <>
+            <SectionPillsNav />
+            <FilmesSeriesCard />
+        </>
     )
 }
