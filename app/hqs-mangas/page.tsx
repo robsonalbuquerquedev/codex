@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import SectionPillsNav from "@/components/navigation/SectionPillsNav";
 import HqsMangasCard from "@/components/card/HqsMangasCard";
 
 export const metadata: Metadata = {
@@ -70,5 +71,10 @@ export const metadata: Metadata = {
 };
 
 export default function HqsMangasPage() {
-  return <HqsMangasCard />;
+  return (
+    <>
+      <SectionPillsNav />
+      <HqsMangasCard />;
+    </>
+  )
 }
