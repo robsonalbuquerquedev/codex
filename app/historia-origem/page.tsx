@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import SectionPillsNav from "@/components/navigation/SectionPillsNav";
 import HistoriaOrigemCard from "@/components/card/HistoriaOrigemCard";
 
 export const metadata: Metadata = {
@@ -63,5 +64,11 @@ export const metadata: Metadata = {
 };
 
 export default function HistoriaOrigemPage() {
-    return <HistoriaOrigemCard />;
+    return (
+        <>
+            <SectionPillsNav />
+            <HistoriaOrigemCard />;
+        </>
+    )
+
 }
