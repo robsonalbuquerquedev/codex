@@ -1,11 +1,6 @@
 import Image from "next/image";
-import {
-    Instagram,
-    ExternalLink,
-    FileText,
-    ShieldCheck,
-    Layers,
-} from "lucide-react";
+import Link from "next/link";
+import { Instagram, ExternalLink, FileText, ShieldCheck, Layers, HelpCircle } from "lucide-react";
 
 export default function Footer() {
     const currentYear = new Date().getFullYear();
@@ -29,21 +24,29 @@ export default function Footer() {
                     </p>
 
                     <div className="flex flex-col gap-2">
-                        <a
+                        <Link
                             href="/termos-de-uso"
                             className="flex items-center gap-2 hover:text-white transition-colors"
                         >
                             <FileText size={16} />
                             Termos de Uso
-                        </a>
+                        </Link>
 
-                        <a
+                        <Link
                             href="/politica-de-privacidade"
                             className="flex items-center gap-2 hover:text-white transition-colors"
                         >
                             <ShieldCheck size={16} />
                             Política de Privacidade
-                        </a>
+                        </Link>
+
+                        <Link
+                            href="/faq"
+                            className="flex items-center gap-2 hover:text-white transition-colors"
+                        >
+                            <HelpCircle size={16} />
+                            FAQ
+                        </Link>
                     </div>
                 </div>
 
