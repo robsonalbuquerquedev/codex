@@ -70,7 +70,7 @@ export default function GalleryHub() {
                             type="button"
                             onClick={() => goToPage(page - 1)}
                             disabled={page === 1}
-                            className="inline-flex items-center gap-2 rounded-2xl border border-white/10 bg-white/5 px-4 py-2 text-sm font-semibold text-slate-100 hover:bg-white/10 transition disabled:opacity-40 disabled:cursor-not-allowed"
+                            className="inline-flex items-center gap-2 rounded-2xl border border-white/10 bg-white/5 px-4 py-2 text-sm font-semibold text-slate-100 hover:bg-white/10 transition disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer"
                             aria-label="Página anterior"
                         >
                             <ChevronLeft className="w-4 h-4" />
@@ -81,7 +81,7 @@ export default function GalleryHub() {
                             type="button"
                             onClick={() => goToPage(page + 1)}
                             disabled={page === totalPages}
-                            className="inline-flex items-center gap-2 rounded-2xl bg-indigo-600 px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-500 transition disabled:opacity-40 disabled:cursor-not-allowed"
+                            className="inline-flex items-center gap-2 rounded-2xl bg-indigo-600 px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-500 transition disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer"
                             aria-label="Próxima página"
                         >
                             Próximo
@@ -138,7 +138,7 @@ export default function GalleryHub() {
                     type="button"
                     onClick={() => goToPage(page - 1)}
                     disabled={page === 1}
-                    className="inline-flex items-center gap-2 rounded-2xl border border-white/10 bg-white/5 px-4 py-2 text-sm font-semibold text-slate-100 hover:bg-white/10 transition disabled:opacity-40 disabled:cursor-not-allowed"
+                    className="inline-flex items-center gap-2 rounded-2xl border border-white/10 bg-white/5 px-4 py-2 text-sm font-semibold text-slate-100 hover:bg-white/10 transition disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer"
                 >
                     <ChevronLeft className="w-4 h-4" />
                     Anterior
@@ -153,7 +153,7 @@ export default function GalleryHub() {
                     type="button"
                     onClick={() => goToPage(page + 1)}
                     disabled={page === totalPages}
-                    className="inline-flex items-center gap-2 rounded-2xl bg-indigo-600 px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-500 transition disabled:opacity-40 disabled:cursor-not-allowed"
+                    className="inline-flex items-center gap-2 rounded-2xl bg-indigo-600 px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-500 transition disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer"
                 >
                     Próximo
                     <ChevronRight className="w-4 h-4" />
