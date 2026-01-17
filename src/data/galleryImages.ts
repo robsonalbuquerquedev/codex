@@ -32,4 +32,7 @@ export const galleryImages: GalleryImage[] = [
     { src: "/images/featured/thor-mcu.png", title: "Thor no MCU", category: "Filmes & Séries" },
     { src: "/images/featured/thor-ragnarok.png", title: "Thor: Ragnarok", category: "Filmes & Séries" },
     { src: "/images/featured/thor-mjolnir-stormbreaker.png", title: "Mjolnir & Stormbreaker", category: "Filmes & Séries" },
+
+    { src: "/images/arcos-sagas/dark-knight-returns.png", title: "O Cavaleiro das Trevas Retorna", category: "HQs & Mangás" },
+    { src: "/images/arcos-sagas/infinity-gauntlet.png", title: "A Saga do Infinito", category: "HQs & Mangás" },
 ];
