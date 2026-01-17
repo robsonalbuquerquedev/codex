@@ -60,8 +60,8 @@ export default function LinhaDoTempoMovimentosPage() {
         <CardLayout
             header={
                 <BackButton
-                    fallbackHref="/hqs-mangas"
-                    label="Voltar para HQs & Mangás"
+                    fallbackHref="/historia-origem"
+                    label="Voltar para História & Origem"
                 />
             }
         >
