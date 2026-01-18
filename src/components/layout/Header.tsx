@@ -4,7 +4,7 @@ import Navbar from "@/components/navigation/Navbar";
 
 export default function Header() {
     return (
-        <header className="w-full bg-gradient-to-br from-slate-950 via-slate-900 to-indigo-950 border-b border-white/10 relative z-40">
+        <header className="w-full bg-gradient-to-br from-indigo-400/10 via-indigo-400/5 to-transparent relative z-40 ">
             <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
 
                 {/* Logo da LEXARA */}
@@ -14,7 +14,7 @@ export default function Header() {
                     className="flex items-center group"
                 >
                     <Image
-                        src="/images/logolexaraheaderremovebg.png"
+                        src="/images/logolexaraconceitual.png"
                         alt="LEXARA — Arquivo vivo do universo geek"
                         width={160}
                         height={40}

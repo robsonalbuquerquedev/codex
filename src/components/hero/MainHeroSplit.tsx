@@ -18,7 +18,7 @@ export default function MainHeroSplit() {
                     className="flex justify-center md:justify-start"
                 >
                     <Image
-                        src="/images/herosplitlexara.png"
+                        src="/images/herosplitlexaraconceitual.png"
                         alt="LEXARA — universo geek sem rótulos"
                         width={520}
                         height={520}
