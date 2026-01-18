@@ -15,7 +15,7 @@ export const featuredContent = [
             "Um estudo sobre como o universo Marvel influenciou o cinema blockbuster, a cultura pop e a forma moderna de construir narrativas interconectadas.",
         image: "/images/featured/marvel.png",
         category: "HQs & Mangás",
-        href: "/hqs-marvel/impacto-cultural",
+        href: "/historia-origem/impacto-cultural-legado/impacto-cultural-marvel",
     },
     {
         id: 3,
@@ -24,6 +24,6 @@ export const featuredContent = [
             "Uma reflexão sobre jogos que elevaram a narrativa interativa, mostrando como os videogames se tornaram uma poderosa forma de expressão artística.",
         image: "/images/featured/games.png",
         category: "Games",
-        href: "/games/narrativa-interativa",
+        href: "/games/narrativa-mundo/games-que-mudaram-a-forma-de-contar-historias",
     },
 ];

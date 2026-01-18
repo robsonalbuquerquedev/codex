@@ -35,4 +35,13 @@ export const impactoCulturalLegadoArticles: ArticleCardItem[] = [
         href: "/historia-origem/impacto-cultural-legado/legado-que-atravessa-geracoes",
         image: "/images/historia-origem/legado-atravessa-geracoes.png",
     },
+    {
+        id: "impacto-cultural-marvel",
+        title: "O impacto cultural do universo Marvel",
+        excerpt:
+            "Como a Marvel redefiniu o cinema blockbuster, influenciou a cultura pop global e estabeleceu um novo modelo de narrativas interconectadas no entretenimento moderno.",
+        category: "HQs & Mangás",
+        href: "/historia-origem/impacto-cultural-legado/impacto-cultural-marvel",
+        image: "/images/featured/marvel.png",
+    },
 ];

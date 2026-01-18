@@ -35,4 +35,13 @@ export const gamesNarrativaMundoArticles: ArticleCardItem[] = [
         href: "/games/narrativa-mundo/personagens-e-universos",
         image: "/images/narrativas/personagens-universos.png",
     },
+    {
+        id: "games-que-mudaram-a-narrativa",
+        title: "Games que mudaram a forma de contar histórias",
+        excerpt:
+            "Uma reflexão sobre jogos que elevaram a narrativa interativa, mostrando como os videogames se tornaram uma poderosa forma de expressão artística.",
+        category: "Narrativa & Mundo",
+        href: "/games/narrativa-mundo/games-que-mudaram-a-forma-de-contar-historias",
+        image: "/images/featured/games.png",
+    },
 ];
